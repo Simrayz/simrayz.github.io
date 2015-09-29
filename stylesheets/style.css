@@ -182,6 +182,7 @@ body {
 /* line 106, ../sass/style.scss */
 .link-wrapper {
   color: #005A31;
+  display: -webkit-flex;
   display: flex;
   padding: 0 1.69492%;
 }
@@ -193,6 +194,7 @@ body {
 .link-wrapper * {
   margin: 0;
   line-height: 3rem;
+  -webkit-flex: 1;
   flex: 1;
 }
 /* line 119, ../sass/style.scss */
